@@ -8,7 +8,7 @@ Self_Employed=["Yes","No"]
 Property_Area=['Urban', 'Rural', 'Semiurban']
 Credit_History=[0.0,1.0]
 Dependents=[0.0,1.0,2.0,3.0]
-Pipe = pickle.load(open('pipe.pkl', 'rb'))
+Pipe = pickle.load(open('pipe.pkl','rb'))
 st.title('Check your Loan ELgibility')
 col1,col2,col3,col4,col5,col6,col7=st.columns(7)
 with col1:
