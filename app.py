@@ -1,6 +1,7 @@
 import streamlit as st
 import pandas as pd
 import pickle
+import sklearn
 Gender=["Female","Male"]
 Married=["Yes","No"]
 Education=["Graduate","Not Graduate"]
