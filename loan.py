@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 from PIL import Image
-import requirements
+
 
 primaryColor="blue"
 
